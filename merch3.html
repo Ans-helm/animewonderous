@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width initial-scale = 1.0 ">
+        <title>Merch</title>
+        <meta charset="UTF-8">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Ibarra+Real+Nova&family=Splash&display=swap');
+            </style>
+        ,<link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class = "navbar">
+                <div class="logo">
+                    <img src="Resources/PosterMaker_05052022_233747.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="Wonderous.html">Home</a></li>
+                        <li><a href="merch.html">Merch</a></li>
+                        <li><a href="News.html">News</a></li>
+                        <li><a href="">Account</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <a href=""><img src="Resources/PosterMaker_14072022_224130.png" width="30px" height="30px"></a>
+                <img src= "Resources/menu.png" class = "menu-icon" onclick="menutoggle()">
+
+            </div>
+           
+        </div>
+    
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>3rd Page</h2>
+            <select>
+                <option>Default</option>
+                <option>Sort by Price</option>
+                <option>Sort by Rating</option>
+                <option>Sort by Shipping</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="Resources/cat26.jpg">
+                <h4>Jujutsu Kaisen T-shirt</h4>
+                <div class="rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p>7500</p>
+            </div>
+            <div class="col-4">
+                <a href="md27.html"><img src="Resources/cat27.jpg"></a>
+                <h4>Demon slayer kimono</h4>
+                <div class="rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p>25000</p>
+            </div>
+            <div class="col-4">
+                <a href="md28.html"><img src="Resources/cat28.jpg"></a>
+                <h4>Akatsuki Rings</h4>
+                <div class="rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p>5000</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href="md29.html"><img src="Resources/cat29.jpg">
+                <h4>Demon slayer earings</h4>
+                <div class="rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p>7500</p>
+            </div>
+            <div class="col-4">
+                <a href="md30.html"><img src="Resources/cat30.jpg"></a>
+                <h4>Naruto frog purse</h4>
+                <div class="rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p>7500</p>
+            </div>
+            <div class="col-4">
+                <a href="md31.html"><img src="Resources/cat31.jpg"></a>
+                <h4>One Piece Trading Cards</h4>
+                <div class="rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p>25000</p>
+            </div>    
+        </div>
+        
+        <div class="page-btn">
+            <a href="merch.html"><span>1</span></a>
+            <a href="merch2.html"><span>2</span></a>
+            <a href="merch3.html"><span>3</span></a>
+        </div>
+       
+
+    <!---Donate-->
+   
+
+    <!---Anime Quotes-->
+    
+    <!-----js for togglemenu----->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px"
+            }
+            else{
+                MenuItems.style.maxHeight == "0px"
+            }
+        }
+    </script>
+      
+    </body>
+</html>

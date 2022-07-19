@@ -1,0 +1,26 @@
+Project Wonderous:
+Specified language: Python, HTML and CSS
+Skills required: Back end development, website development and App development
+Project build time: 20 days
+Dedication per day: 10 hours
+Project Description: Simple responsive website that emulates an early facebook. Named Wonderous due to its founding father, The website is to provide the user
+a comfortable and beautiful experience using it with key features like a forum page where users can share their thoughts and opinions on different anime/manga.
+Users should also be able to create profiles, Post pictures and videos on forums. Weekly news letter with anime news and new updates on anime episodes and manga
+chapters
+
+Phase 1:
+Project initialization
+Creation of website for Anime wonderous
+
+Phase 1 features:
+User login interface
+Home Page
+News Page
+Forum Space
+Review Section
+Anime Recommendations and links to watch anime/ read manga
+Contact Support
+
+Note: Minimal design.
+
+Updates will be added after launch and feedback
